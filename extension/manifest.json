@@ -1,7 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "AC-Notes",
+  "name": "AthenaCrisisNotes",
   "version": "1.0",
+  "description": "This is an unofficial Chrome extension that allows note-taking for the game Athena Crisis",
   "permissions": ["activeTab", "storage", "webRequest", "webNavigation", "tabs"],
   "background": {
     "scripts": ["background.js"]
