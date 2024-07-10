@@ -56,7 +56,7 @@ function createNewDiv(textContent) {
     newDiv.style.height = '24px';
     newDiv.style.width = '24px';
     newDiv.style.position = 'absolute';
-    newDiv.style.zIndex = '999'; // Ensure it appears above other elements
+    newDiv.style.zIndex = '80'; // Ensure it appears above other elements
 
     // Center the text within the div
     newDiv.style.display = 'flex';
@@ -84,7 +84,7 @@ function addZeroZeroDiv(parentNode) {
 
 function deleteDivsCreated() {
     // Select all divs created by addDivsForMasks based on their unique styles
-    const createdDivs = document.querySelectorAll('div[style*="position: absolute"][style*="z-index: 999"]');
+    const createdDivs = document.querySelectorAll('div[style*="position: absolute"][style*="z-index: 80"]');
 
     // Remove each of the found divs
     createdDivs.forEach(div => div.remove());
